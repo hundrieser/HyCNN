@@ -1,4 +1,4 @@
-# Hyper Input Convex Neural Networks &mdash; Public Code Companion
+# Hyper Input Convex Neural Networks
 
 This folder contains a curated, **publicly runnable** subset of the experimental code that accompanies our paper
 
