@@ -103,7 +103,7 @@ estimators are trained side by side on a closed-form transport problem in
   `nu = (grad psi)_# mu` is exactly `T*(x) = grad psi(x) = (s_i x_i)_i`,
   so the task reduces to recovering the diagonal scaling `s` from samples.
 * **Estimators.**
-  * `ICNN` &mdash; standard Amos-style ICNN with strict softplus non-negativity.
+  * `ICNN` &mdash; standard Amos-style ICNN whose hidden-to-hidden weights are always non-negative by a softplus reparametrozation.
   * `ICNNLeaky` &mdash; leaky-ReLU variant.
   * `ICNNQuad` &mdash; ICNN with a quadratic first hidden layer.
   * A *soft-penalty* ICNN variant using a `lambda_cvx` convexity penalty in
